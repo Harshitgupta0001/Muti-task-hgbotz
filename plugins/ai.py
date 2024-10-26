@@ -4,7 +4,7 @@ import urllib.parse
 
 def ask_query(query, model=None):
 default_model = 'claude-sonnet-3.5'
-system_prompt = "You are a helpful assistant. Your name is Asuraa, and your owner's name is Silicon, known as @Silicon_Botz."
+system_prompt = "You are a helpful assistant, and your owner's name is @HGBOTZ."
 
 model = model or default_model
 
