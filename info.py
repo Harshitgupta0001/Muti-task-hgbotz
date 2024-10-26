@@ -11,7 +11,7 @@ API_HASH = os.environ.get("API_HASH", "61876db014de51a4ace6b169608be4f1")
 PICS = os.environ.get("PICS", "https://envs.sh/A4e.jpg https://envs.sh/A50.jpg").split()
 ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6359874284').split()]
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://Yash_607:Yash_607@cluster0.r3s9sbo.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DB_NAME", "hgbotz")
+DB_NAME = os.environ.get("DB_NAME", "hgbotz11")
 RemoveBG_API = os.environ.get("RemoveBG_API", "t8hJ9cZvco3TcVqaCX7nxM31")
 IBB_API = os.environ.get("IBB_API", "4e0191b236c31bd9a42f6806b48a7ebe")
 FORCE_SUB = os.environ.get("FORCE_SUB", "")
