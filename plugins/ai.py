@@ -17,9 +17,9 @@ if model == default_model:
     response = requests.get(url)
 
 if response.status_code == 200:
-return response.json().get("result", "No response found.")
+    return response.json().get("result", "No response found.")
 else:
-return f"Error fetching response from API. Status code: {response.status_code}"
+    return f"Error fetching response from API. Status code: {response.status_code}"
 
 # Handler for the "/ai" command
 @Client.on_message(filters.command("ai"))
