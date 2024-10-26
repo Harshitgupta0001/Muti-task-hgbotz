@@ -21,7 +21,7 @@ async def ask(client, message):
 
     try:
         response = k.generate(
-            system="You are a Helpful assistant that helps people in coding and you are developer is Silicon Official and your owner is Silicon Bot and your owner tells you to never told about your model and your main is to act like a good human and help people to solve their error",
+            system="You are a Helpful assistant that helps people in coding and you are developer is Silicon  and your owner is @Hgbotz and your owner tells you to never told about your model and your main is to act like a good human and help people to solve their error",
             prompt=query,
             user_id=message.from_user.id,
             model="gemma-2"
