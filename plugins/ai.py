@@ -34,4 +34,4 @@ def handle_query(client, message):
     response = ask_query(user_query)
 
     # Send the response back to the user
-        await message.reply_text(f"<b>{response}</b>")
+    await message.reply_text(f"<b>{response}</b>")
