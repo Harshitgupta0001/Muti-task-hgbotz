@@ -2,7 +2,7 @@ import pyrogram, asyncio, random, time, os
 from pyrogram import Client, filters, enums
 from pyrogram.types import *
 from helper.database import adds_user, db
-from info import PICS, LOG_TEXT, LOG_CHANNEL 
+from info import PICS, LOG_TEXT, LOG_CHANNEL, AUTH_CHANNEL
 from helper.text import txt
 
 async def is_subscribed(bot, query, channel):
