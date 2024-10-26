@@ -5,10 +5,10 @@ from os import environ
 id_pattern = re.compile(r'^.\d+$')
 AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002166149059').split()] # give channel id with seperate space. Ex : ('-10073828 -102782829 -1007282828')
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-PICS = os.environ.get("PICS", "").split()
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7835578052:AAFHxvWI4JMtBJuB5ImjgSoMfjP6yBTApRM")
+API_ID = int(os.environ.get("API_ID", "25492855"))
+API_HASH = os.environ.get("API_HASH", "61876db014de51a4ace6b169608be4f1")
+PICS = os.environ.get("PICS", "https://envs.sh/A4e.jpg https://envs.sh/A50.jpg").split()
 ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6359874284').split()]
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://Yash_607:Yash_607@cluster0.r3s9sbo.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DB_NAME", "hgbotz")
