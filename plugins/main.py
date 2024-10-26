@@ -49,6 +49,8 @@ async def start_message(bot, message):
            InlineKeyboardButton("📃 ᴀʙᴏᴜᴛ", callback_data="about") 
                ],[
            InlineKeyboardButton("📢 ᴜᴩᴅᴀᴛᴇꜱ", url="https://t.me/hgbotz")
+               ],[
+           InlineKeyboardButton("⚙️ ꜱᴜᴩᴩᴏʀᴛ", url="https://t.me/HGBOTZ_support")
               ]])
 
     await message.reply_photo(
